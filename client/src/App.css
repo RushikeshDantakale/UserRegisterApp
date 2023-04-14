@@ -1,0 +1,225 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.login-div {
+  margin-top: 60px;
+  padding: 20px;
+  height: 400px;
+  width: 450px;
+  border: 2px solid white;
+  background-color: rgb(179, 190, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 50px #000;
+}
+
+.register-div {
+  margin-top: 60px;
+  padding: 20px;
+  height: 520px;
+  width: 450px;
+  border: 2px solid white;
+  background-color: rgb(179, 190, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 50px #000;
+}
+
+.link {
+  font-size: 18px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  color: indigo;
+}
+
+label {
+  font-size: 30px;
+}
+
+.username-div,
+.pass-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px;
+  width: 100%;
+}
+
+input {
+  width: 96.2%;
+  height: 30px;
+  padding: 4px 8px;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 8px 8px;
+  border-radius: 5px;
+  background-color: green;
+  border: none;
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+}
+
+.btn:hover {
+  color: green;
+  background-color: white;
+  border: 3px solid green;
+}
+
+.input {
+  width: 100%;
+}
+
+.log_out_container {
+  padding-left: 20px;
+  height: 100px;
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.btn-logout {
+  height: 60px;
+  width: 150px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.btn-logout:hover {
+  transform: scale(0.9);
+}
+
+.btn_edit {
+  width: 150px;
+  height: 50px;
+  padding: 8px 8px;
+  border-radius: 5px;
+  background-color: rgb(254, 201, 54);
+  border: 1px solid black;
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+}
+
+.btn_update {
+  width: 150px;
+  height: 50px;
+  padding: 8px 8px;
+  border-radius: 5px;
+  background-color: green;
+  border: none;
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+}
+
+.btn_cancel {
+  width: 150px;
+  height: 50px;
+  padding: 8px 8px;
+  border-radius: 5px;
+  background-color: red;
+  border: none;
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+}
+
+.btn_edit:hover {
+  transform: scale(1.2);
+}
+
+.btn_update:hover {
+  transform: scale(1.1);
+}
+.btn_cancel:hover {
+  transform: scale(1.1);
+}
+
+.home_data_container {
+  height: calc(100vh - 100px);
+  background-color: lightcyan;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.user_data {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user_data_div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.update_cancel_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  font-size: 25px;
+  gap: 25px;
+}
+
+.user_info {
+  padding: 5px 10px;
+  margin-left: 20px;
+  flex: 1;
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+}
+
+.user_info_data {
+  padding: 5px 10px;
+  margin-left: 20px;
+  flex: 1;
+  text-align: center;
+  background-color: rgb(189, 242, 189);
+}
+
+.input_update {
+  width: 100%;
+}
